@@ -1,8 +1,8 @@
-const createURL = 'http://52.56.112.79/api/create.php';
-const readAllURL = 'http://52.56.112.79/api/read_all.php';
-const readSingleURL = 'http://52.56.112.79/api/read_single.php';
-const updateURL = 'http://52.56.112.79/api/update.php';
-const deleteURL = 'http://52.56.112.79/api/delete.php';
+const createURL = 'http://AWSomeCommute-ALB-1185589715.eu-west-2.elb.amazonaws.com/api/create.php';
+const readAllURL = 'http://AWSomeCommute-ALB-1185589715.eu-west-2.elb.amazonaws.com/api/read_all.php';
+const readSingleURL = 'http://AWSomeCommute-ALB-1185589715.eu-west-2.elb.amazonaws.com/api/read_single.php';
+const updateURL = 'http://AWSomeCommute-ALB-1185589715.eu-west-2.elb.amazonaws.com/api/update.php';
+const deleteURL = 'http://AWSomeCommute-ALB-1185589715.eu-west-2.elb.amazonaws.com/api/delete.php';
 
 function loadTable() {
   const xhttp = new XMLHttpRequest();

@@ -1,8 +1,8 @@
-const createURL = 'http://3.8.237.60/api/create.php';
-const readAllURL = 'http://3.8.237.60/api/read_all.php';
-const readSingleURL = 'http://3.8.237.60/api/read_single.php';
-const updateURL = 'http://3.8.237.60/api/update.php';
-const deleteURL = 'http://3.8.237.60/api/delete.php';
+const createURL = 'http://52.56.112.79/api/create.php';
+const readAllURL = 'http://52.56.112.79/api/read_all.php';
+const readSingleURL = 'http://52.56.112.79/api/read_single.php';
+const updateURL = 'http://52.56.112.79/api/update.php';
+const deleteURL = 'http://52.56.112.79/api/delete.php';
 
 function loadTable() {
   const xhttp = new XMLHttpRequest();

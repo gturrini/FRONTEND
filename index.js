@@ -1,8 +1,8 @@
-const createURL = 'http://acALB-1653436880.eu-west-2.elb.amazonaws.com/api/create.php';
-const readAllURL = 'http://acALB-1653436880.eu-west-2.elb.amazonaws.com/api/read_all.php';
-const readSingleURL = 'http://acALB-1653436880.eu-west-2.elb.amazonaws.com/api/read_single.php';
-const updateURL = 'http://acALB-1653436880.eu-west-2.elb.amazonaws.com/api/update.php';
-const deleteURL = 'http://acALB-1653436880.eu-west-2.elb.amazonaws.com/api/delete.php';
+const createURL = 'http://acALB-1583996605.eu-west-2.elb.amazonaws.com/api/create.php';
+const readAllURL = 'http://acALB-1583996605.eu-west-2.elb.amazonaws.com/api/read_all.php';
+const readSingleURL = 'http://acALB-1583996605.eu-west-2.elb.amazonaws.com/api/read_single.php';
+const updateURL = 'http://acALB-1583996605.eu-west-2.elb.amazonaws.com/api/update.php';
+const deleteURL = 'http://acALB-1583996605.eu-west-2.elb.amazonaws.com/api/delete.php';
 
 function loadTable() {
   const xhttp = new XMLHttpRequest();
